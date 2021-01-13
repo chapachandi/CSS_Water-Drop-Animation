@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Circle Transition</title>
+    <style>
+        div{
+            width: 40px;
+            height: 40px;
+            background-color: #ffffff00;
+            border-radius: 100%;
+            border: 10px solid #e04646;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            animation-name: changecolor;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+
+        }
+
+        @keyframes changecolor {
+            from{
+                width: 40px;
+                height: 40px;
+                border: 5px solid #e04646;
+            }
+            to{
+                width: 300px;
+                height: 300px;
+                border: 0 solid #ffffff;
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
